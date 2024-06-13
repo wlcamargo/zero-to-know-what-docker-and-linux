@@ -17,7 +17,7 @@
 
 | Pasta            | Descrição                                                                                       |
 |------------------|-------------------------------------------------------------------------------------------------|
-| `app`            | Diretório principal da aplicação, contém subpastas e arquivos essenciais para o funcionamento.  |
+| `app`            | Diretório principal da aplicação Python, contém subpastas e arquivos essenciais para o funcionamento.  |
 | `app/configs`    | Contém arquivos de configuração necessários para a aplicação.                                   |
 | `app/functions`  | Diretório onde estão localizadas as funções principais da aplicação.                            |
 | `app/local_data` | Contém dados locais utilizados pela aplicação.                                                  |
@@ -31,7 +31,7 @@
 
 
 ## Aplicação Python
-Versão do Python 3.11.9
+Versão do Python 3.10-slim
 
 ![image](./docs/assets/applications_architecture.png)
 
