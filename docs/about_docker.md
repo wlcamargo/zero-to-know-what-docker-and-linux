@@ -86,6 +86,9 @@ echo "hello linkedin" > index.html
 ```
 
 ### Construção de uma imagem
+
+Troque o ip do host no arquivo de configs, dentro da pasta ```configs/configs.py``` antes do build 
+
 ```
 sudo docker build -t wlcamargo/app_python_workshop .
 
