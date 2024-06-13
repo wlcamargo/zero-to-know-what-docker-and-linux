@@ -82,7 +82,7 @@ docker exec -it id /bin/bash
 cd /usr/share/nginx/html
 
 
-echo "hello linkedin" > index.html
+echo "hello workshop" > index.html
 ```
 
 ### Construção de uma imagem

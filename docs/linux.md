@@ -1,4 +1,4 @@
-# Linux
+# Linux Tutorial
 
 # O que é sudo?
 É o super usuário do Linux, simular ao executar modo de admin no Windows.
