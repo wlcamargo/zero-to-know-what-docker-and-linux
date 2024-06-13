@@ -22,3 +22,5 @@ csv_bytes = io.BytesIO(csv_data.encode('utf-8'))
 # Fazer upload do arquivo CSV para o MinIO
 client.put_object('landing-zone', 'dados.csv', csv_bytes, len(csv_data))
 
+print('dados.csv inserido com sucesso no Minio!')
+

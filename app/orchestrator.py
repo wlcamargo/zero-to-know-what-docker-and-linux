@@ -1,4 +1,3 @@
-# entrypoint.py
 import subprocess
 
 def run_script(script_name):

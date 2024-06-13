@@ -1,4 +1,0 @@
-pandas
-minio
-pyarrow
-psycopg2-binary

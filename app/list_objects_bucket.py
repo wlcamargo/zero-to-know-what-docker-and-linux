@@ -1,12 +1,10 @@
 import pandas as pd
 import io
 from minio import Minio
+from configs import configs
 
-# Inicializar o cliente MinIO
-client = Minio('172.21.121.140:9000',
-               access_key='chapolin',
-               secret_key='mudar@123',
-               secure=False)
+# Initialize MinIO client
+client = configs.credential_minio
 
 # Listar objetos no bucket
 objects = client.list_objects('landing-zone', recursive=True)

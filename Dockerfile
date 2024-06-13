@@ -11,7 +11,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copia todo o conteúdo do diretório local para o diretório de trabalho na imagem
-COPY . .
+COPY app/ .
 
 # Expõe a porta que sua aplicação vai usar (se aplicável)
 # EXPOSE 8080

@@ -1,11 +1,9 @@
 import os
 from minio import Minio
+from configs import configs
 
 # Initialize MinIO client
-client = Minio('172.21.121.140:9000',
-               access_key='chapolin',
-               secret_key='mudar@123',
-               secure=False)
+client = configs.credential_minio
 
 # Local folder containing Parquet files
 local_folder_path = 'local_data/'

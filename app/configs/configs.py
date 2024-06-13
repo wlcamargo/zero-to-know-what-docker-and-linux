@@ -1,3 +1,5 @@
+from minio import Minio
+
 credential_postgres_adventureworks = {
     'host': '172.21.121.140',
     'dbname': 'Adventureworks',
@@ -5,6 +7,13 @@ credential_postgres_adventureworks = {
     'password': 'postgres',
     'port': 5435
 }
+
+credential_minio = Minio(
+    endpoint='172.21.121.140:9000',
+    access_key='chapolin',
+    secret_key='mudar@123',
+    secure=False
+)
 
 local_path = 'local_data/'
     

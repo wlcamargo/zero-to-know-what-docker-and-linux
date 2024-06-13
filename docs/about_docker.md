@@ -87,21 +87,29 @@ echo "hello linkedin" > index.html
 
 ### Construção de uma imagem
 
-Troque o ip do host no arquivo de configs, dentro da pasta ```configs/configs.py``` antes do build 
+1 - Crie uma conta no Docker Hub 
+
+2 - Antes do build, troque o ip do host para o ip da sua máquina no arquivo de configs, dentro da pasta ```configs/configs.py```
 
 ```
 sudo docker build -t wlcamargo/app_python_workshop .
 
-sudo docker login
+sudo docker login 
 
 sudo docker push wlcamargo/app_python_workshop
 ```
 
 ### Rodar o container
- docker run --rm --name app_python wlcamargo/app_python_workshop
+```
+docker run --rm --name app_python wlcamargo/app_python_workshop
+```
 
 ### Rodar o container modo interativo
+```
 docker run -it -d --rm --name app_python wlcamargo/app_python_workshop /bin/bash
+```
 
 ### Acessar o container
+```
 docker exec -it app_python /bin/bash
+```

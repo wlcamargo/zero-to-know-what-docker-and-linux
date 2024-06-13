@@ -126,14 +126,14 @@ Acesse o serviço e crie um bucket chamado ```landing-zone```
 ## Minio bucket sample
 ![image](./docs/assets/bucket_minio.png)
 
-
 ## Developers
-Wallace Camargo  
+| Desenvolvedor      | LinkedIn                                   | Email                        | Portfólio                              |
+|--------------------|--------------------------------------------|------------------------------|----------------------------------------|
+| Wallace Camargo    | [LinkedIn](https://www.linkedin.com/in/wallace-camargo-35b615171/) | wallacecpdg@gmail.com        | [Portfólio](https://wlcamargo.github.io/)   |
+| Luciano Borba      | [LinkedIn](https://www.linkedin.com/in/luhborba/) | luhborbafilho@gmail.com      | [Portfólio](https://luhborba.github.io/portifolio/) |
 
-Luciano Borba
-
-## Suport
-
+## References
+https://docs.docker.com/get-started/overview/
 
 
 
