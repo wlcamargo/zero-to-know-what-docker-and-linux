@@ -40,12 +40,12 @@ Versão do Python 3.11.9
 
 ### Primeiro passo: clone o repositório
 ```
-git clone caminho do repo
+git clone https://github.com/wlcamargo/zero-to-know-what-docker-and-linux
 ```
 
 ### Segundo passo: acesse a pasta do projeto
 ```
-cd caminho da pasta
+cd zero-to-know-what-docker-and-linux
 ```
 
 ## Crie e ative o ambiente virtual
