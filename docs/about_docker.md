@@ -87,7 +87,18 @@ echo "hello linkedin" > index.html
 
 ### Construção de uma imagem
 ```
-sudo docker build -t wlcamargo/workshop-docker .
+sudo docker build -t wlcamargo/app_python_workshop .
 
-sudo docker push wlcamargo/workshop-docker
+sudo docker login
+
+sudo docker push wlcamargo/app_python_workshop
 ```
+
+### Rodar o container
+ docker run --rm --name app_python wlcamargo/app_python_workshop
+
+### Rodar o container modo interativo
+docker run -it -d --rm --name app_python wlcamargo/app_python_workshop /bin/bash
+
+### Acessar o container
+docker exec -it app_python /bin/bash

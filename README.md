@@ -13,7 +13,6 @@
 ├───portainer
 ├───postgres
 ├───sql_server
-
 ```
 
 | Pasta            | Descrição                                                                                       |
@@ -97,6 +96,11 @@ cd postgres
 ```
 sudo docker compose up -d
 ```
+### Credenciais do Postgres
+```
+user: postgres
+password: postgres
+```
 
 ## Rodar o container do Minio
 
@@ -110,6 +114,18 @@ cd minio
 ```
 sudo docker compose up -d
 ```
+
+### Credenciais do Minio
+```
+user: chapolin
+password: mudar@123
+```
+
+Acesse o serviço e crie um bucket chamado ```landing-zone```
+
+## Minio bucket sample
+![image](./docs/assets/bucket_minio.png)
+
 
 ## Developers
 Wallace Camargo  

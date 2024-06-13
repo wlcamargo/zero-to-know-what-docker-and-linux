@@ -1,7 +1,7 @@
-CREATE database youtube;
+create database workshop;
 go
 
-use youtube;
+use workshop;
 go
 
 
@@ -10,11 +10,11 @@ create table tb_hello (
 	name varchar(50)
 );
 
-insert into tb_hello values (1, 'wallace');
+insert into tb_hello values (1, 'dev_wallace');
 
 
 CREATE LOGIN chapolin
-WITH PASSWORD ='mudar@123', DEFAULT_DATABASE = youtube;
+WITH PASSWORD ='mudar@123', DEFAULT_DATABASE = workshop;
 
 CREATE USER chapolin FOR LOGIN chapolin;
 

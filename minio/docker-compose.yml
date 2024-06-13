@@ -1,4 +1,8 @@
- minio:
+version: "3.3"
+
+services:
+
+  minio:
     image: wlcamargo/minio
     container_name: minio
     networks:
@@ -8,9 +12,14 @@
       - 9001:9001
     command: server /data --console-address ":9001"
     volumes:
-    - minio:/data
+      - minio-data:/data
     environment:
       - MINIO_ROOT_USER=chapolin
       - MINIO_ROOT_PASSWORD=mudar@123
+
+networks:
+  bigdata:
+    driver: bridge
+
 volumes:
-  minio:
+  minio-data:

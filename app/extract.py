@@ -1,7 +1,7 @@
 import logging
 from configs import configs
 from functions import functions as F
-from plugin.postgres_data_reader import PostgresDataReader
+from plugins.postgres_data_reader import PostgresDataReader
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
