@@ -1,5 +1,6 @@
 import logging
 from configs import configs
+from configs.host import host
 from functions import functions as F
 from plugins.postgres_data_reader import PostgresDataReader
 

@@ -1,5 +1,5 @@
 from minio import Minio
-from host import host
+from configs.host import host
 
 credential_postgres_adventureworks = {
     'host': host,
