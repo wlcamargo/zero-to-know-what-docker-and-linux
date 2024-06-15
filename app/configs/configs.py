@@ -1,7 +1,8 @@
 from minio import Minio
+from host import host
 
 credential_postgres_adventureworks = {
-    'host': '172.21.121.140',
+    'host': f'{host}',
     'dbname': 'Adventureworks',
     'user': 'postgres',
     'password': 'postgres',
@@ -9,7 +10,7 @@ credential_postgres_adventureworks = {
 }
 
 credential_minio = Minio(
-    endpoint='172.21.121.140:9000',
+    endpoint=f'{host}:9000',
     access_key='chapolin',
     secret_key='mudar@123',
     secure=False
@@ -41,4 +42,3 @@ tables_postgres_adventureworks = {
     '21': 'humanresources.employee',
     '22': 'sales.salesorderheader'    
 }
-
