@@ -30,7 +30,7 @@ sudo docker compose up -d
 
 | Componente | Descrição                              |
 |------------|----------------------------------------|
-| Stack      | Pacote utilizado                       |
+| Stack      | Nome da pasta raiz da instalação       |
 | Images     | Imagens instaladas                     |
 | Network    | Redes criadas para comunicação         |
 | Containers | Serviços                               |
