@@ -2,7 +2,7 @@ from minio import Minio
 from host import host
 
 credential_postgres_adventureworks = {
-    'host': f'{host}',
+    'host': host,
     'dbname': 'Adventureworks',
     'user': 'postgres',
     'password': 'postgres',
