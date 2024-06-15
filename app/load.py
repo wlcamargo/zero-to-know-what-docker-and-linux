@@ -6,7 +6,7 @@ from configs import configs
 client = configs.credential_minio
 
 # Local folder containing Parquet files
-local_folder_path = 'local_data/'
+local_folder_path = configs.local_path
 
 # List all files in the local folder
 files = os.listdir(local_folder_path)

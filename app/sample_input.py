@@ -9,11 +9,7 @@ data = {
 }
 df = pd.DataFrame(data)
 
-client = Minio('172.21.121.140:9000',
-               access_key='chapolin',
-               secret_key='mudar@123',
-               secure=False)
-
+client = configs.credential_minio
 
 csv_data = df.to_csv(index=False)
 
