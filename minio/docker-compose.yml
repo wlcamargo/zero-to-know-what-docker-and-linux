@@ -1,7 +1,4 @@
-version: "3.3"
-
 services:
-
   minio:
     image: wlcamargo/minio
     container_name: minio
