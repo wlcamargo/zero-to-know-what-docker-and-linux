@@ -12,5 +12,5 @@
 - Abrir arquivos (cat)
 - Editar arquivos (vim)
 - Verificar ip da máquina (ip a | grep eth0)
-- Verificar se o serviço do Docker está rodando (sudo systemctl docker status)
+- Verificar se o serviço do Docker está rodando (sudo systemctl status docker)
 - Restart ao serviço do Docker (sudo systemctl docker restart)
