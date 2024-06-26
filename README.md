@@ -1,5 +1,8 @@
 # Do Zero to Know What - Docker and Linux
 
+## Link para acessar os vídeos do projeto
+https://mailchi.mp/dfcb3bc4363f/linux-and-docker
+
 ## Estrutura do Projeto
 ```
 ├───app
@@ -135,6 +138,8 @@ Acesse o serviço e crie um bucket chamado ```landing-zone```
 ## References
 https://docs.docker.com/get-started/overview/
 
+## Link para acessar os vídeos do projeto
+https://mailchi.mp/dfcb3bc4363f/linux-and-docker
 
 
 
